@@ -1,0 +1,14 @@
+PLANEJAMENTO
+
+receber o número n de turmas
+receber o número k de operações
+
+para cada n-ésima turma:
+    receber o número m de alunos da primeira turma
+    receber as m linhas com os dados de cada aluno
+
+para cada k-ésima operação:
+    receber o número da operação
+    receber o dado relacionado (turma etc.)
+
+    escolher a operação pedida com if/switch e direcionar o

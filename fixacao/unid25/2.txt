@@ -1,0 +1,25 @@
+// a
+As árvores de busca são importantes no caso em que
+a ordem dos itens armazenados é importante. Elas 
+possibilitam inserção, remoção e busca com complexidade
+O(logn), ou seja, "faz de tudo um pouco".
+
+Para que mantenham máximo desempenho, essas árvores devem
+se manter balanceadas. Isso porque, se isso não ocorrer, elas
+podem se degenerar em uma lista e ter sua complexidade de tempo
+substituída por O(n). Quando elas permanecem balanceadas, a
+complexidade de O(logn) é garantida, mantendo a eficiência 
+da estrutura. 
+
+Árvores como a rubro-negra esquerdista são apenas um dos diversos
+tipos de árvore balanceada de busca que existem. Esse tipo 
+consiste em folhas de duas cores: vermelo e preto, que são 
+essenciais no mantimento do equilíbrio da árvore.
+A raiz é sempre da cor preta e as folhas também. Toda folha
+de cor preta sempre possui o filho esquerdo da cor vermelha, que
+possui apenas filhos de cor preta, e assim em diante.
+
+// b
+Eu concordo com a afirmação. As árvores B, em comparação com as AVL, 
+possuem uma altura consideravelmente menor, principalmente quando é
+considerada a ordem b = 1000.

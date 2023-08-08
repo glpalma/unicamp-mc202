@@ -1,0 +1,14 @@
+Considerando um vetor ordenado.
+
+busca_binaria(vetor, inicio, fim, buscado) {
+    m = (inicio + fim) / 2
+
+    se inicio == fim
+        devolve NULL 
+    se vetor[m] == buscado
+        devolve m
+    se vetor[m] < buscado
+        devolve busca_binaria(vetor, m, fim, buscado)
+    se vetor[m] > buscado
+        devolve busca_binaria(vetor, inicio, m, buscado)
+}

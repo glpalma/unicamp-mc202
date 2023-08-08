@@ -1,0 +1,18 @@
+Considerando as operações da a e da b, 
+uma estrutura boa seria um composto entre max heap e 
+matriz de adjacência, em que cada ponto é a distância entre
+o i-ésimo ponto e o j-ésimo ponto. 
+
+// a
+
+A busca do ponto com maior valor x é feita com o 
+max heap, estrutura adaptada a achar o maior valor.
+O algoritmo seria muito similar ao visto em aula.
+
+// b
+Para remover o par de pontos cuja distância é a maior, 
+a matriz de distâncias seria utilizada. Deve-se percorrer
+a matriz e achar os índices dos pontos com a maior distância e
+depois colocar todos os números da linha e da coluna
+correspondentes como -1, para sinalizar que os itens foram removidos.
+

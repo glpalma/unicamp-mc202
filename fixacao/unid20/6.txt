@@ -1,0 +1,10 @@
+Eu concordo com a frase. A tabela de espalhamento possui, como todas as outras
+estruturas de dados, seus pontos fortes e fracos. Ela pode ser boa para armazenar dados
+não ordenados que devem ser buscados e acessados diversas vezes, processo que deve ser 
+executado o mais rápido possível. No entanto, a tabela de espalhamento não pode ser utilizada
+nos casos em que os dados armazenados são ordenados.
+
+Em casos com itens ordenados, a estrutura de dados mais adequada seria uma ABB balanceada; nos
+casos em que apenas os itens com maiores chaves importam, um max heap é a melhor opção a se implementar; 
+caso o número de dados, os quais podem ser ordenados, seja muito grande para ser armazenado na memória
+principal do computador, uma árvore B seria a melhor opção e assim em diante.

@@ -1,0 +1,7 @@
+A questão da alocação do vetor auxiliar
+diversas vezes pode ser contornada ao deixar a alocação
+do vetor de tamanho fixo para uma função externa. 
+Quando o vetor precisa ser utilizado, ele deve ser apenas
+zerado. Quando a ordenação acabar e, portanto, a função
+intercalar não for mais chamada, a memória utilizada
+pelo vetor deve ser liberada.

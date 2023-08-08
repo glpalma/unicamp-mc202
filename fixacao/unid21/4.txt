@@ -1,0 +1,9 @@
+// a
+Os vértices são as informações, os fatos presentes na
+Wikipedia. As arestas, por sua vez, são as conexões que
+essas informações possuem entre si.
+O grafo parece ser direcionado, pois uma informação específica
+pode levar a outra mais geral, mas não o contrário.
+
+Há pesos somente nos vértices, que são baseados em quão 
+genéricos são os dados nos nós.

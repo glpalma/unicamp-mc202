@@ -1,0 +1,27 @@
+PLANEJAMENTO
+
+struct a ser usada para representar um termo
+
+    titulo
+    vetor de dados de engajamento
+    maximo
+    minimo
+    media
+    desvio_padrao
+
+para armazenar os N termos --> vetor dessa struct
+
+receber o número N de termos 
+receber o número M de dias extraídos
+
+para cada termo
+    receber termo
+        para cada dia
+            receber os números double que representam o engajamento
+
+    calcula parametros(maximo, minimo, média e desvio-padrão) - recebe struct equivalente
+    categorizar_engajamento(termo) recebe struct equivalente
+
+imprimir_dados_termos
+imprimir_categorizacao
+

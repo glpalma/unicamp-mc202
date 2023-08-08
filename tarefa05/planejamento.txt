@@ -1,0 +1,49 @@
+operações com inteiros sem sinal:
+- soma
+- subtração
+- multiplicação
+
+!!! As operações devem ser feitas com números armazenados na forma de lista ligada. !!!
+
+int main() {
+receber numero de casos n
+para cada caso
+    receber operador
+    receber n1 e n2
+    fazer operação selecionada
+    imprimir resultado
+    limpar os dois números
+limpar resto sla
+}
+
+estrutura a ser usada: lista duplamente ligada com inicio e fim
+cada nó representa um algarismo do número usado
+
+um no possui
+    pont ant
+    pont prox
+    int algarismo
+    
+cabeça com: 
+    inicio
+    fim
+    tamanho
+
+ENTRADA E SAIDA {
+
+fun ler_número
+
+while (enquanto ele não for um espaço ou enter)
+    leia um numero (em formato de string)
+    passar da string pra lista ligada // com conversão de ASCII etc
+        salvar o tamanho do num em tam
+
+limpar vetor usado pra string
+    
+
+fun imprimir_numero
+a partir de ini
+imprime o prox até que chegue a NULL
+}
+
+leitura dos grandes inteiros

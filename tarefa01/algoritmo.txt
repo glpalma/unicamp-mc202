@@ -1,0 +1,28 @@
+
+receber o número n de jogos
+receber o tamanho do prêmio
+ler as n jogadas e convertê-las para números
+receber os valores sorteados
+
+CÁLCULO DO PRÊMIO
+calcular o número de acertos de cada pessoa
+    comparando com os números sorteados e contando as ocorrências deles nos
+    números dos jogadores
+
+    
+PARA CALCULAR O NÚMERO DE ACERTOS
+criar uma matriz vazia
+marcar os números sorteados nela
+
+para cada matriz de um jogador
+    comparar a matriz-solução com a da aposta
+        a cada número 1 igual
+            marca um ponto
+    salva o número de acertos do jogador em num_acertos
+
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 

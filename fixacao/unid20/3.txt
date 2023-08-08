@@ -1,0 +1,13 @@
+// questão feita em conjunção com Pedro Bordignon
+
+// a
+resposta no arquivo 3.pdf
+
+// b
+Essa função não é uma boa função de hashing.
+Tanto com a implementação de lista ligadas, quanto com endereçamento aberto, 
+os itens são salvos majoritariamente no meio do vetor, isto é, não
+são espalhados devidamente. Isso pode gerar uma degeneração do hash em O(n)
+no caso das listas ligadas e ineficiência no caso 
+do endereçamento aberto, uma vez que grande parte dos itens não se 
+localizam no seu respectivo hash.

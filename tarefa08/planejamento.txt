@@ -1,0 +1,29 @@
+receber o número de números
+receber o número de operações
+
+receber os números e add na árvore
+
+para cada operação
+    receber número da operação
+    se for 3
+
+    else
+        recebe o número
+
+para cada número, executa a operação
+
+estrutura -> árvore balanceada
+
+um nó consiste de
+    long int 
+    ocorrencias
+    esq dir
+    tipo preto ou vermelho
+
+operações na árvore
+
+inserir inteiro
+
+quantas vezes aparece
+
+operacao 3

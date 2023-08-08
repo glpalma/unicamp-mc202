@@ -1,0 +1,39 @@
+PLANEJAMENTO
+
+receber dimensoes da matriz de letras m e n
+receber numero q de palavras a serem procuradas
+
+para cada linha de 0 até ma
+    receber os n chars
+
+receber as q palavras
+
+para cada palavra
+    se estiver no sea of words
+        palavra[i] = 1
+    se não
+        palavra[i] = 0
+
+imprimir resultado
+    se palavra[i]
+        printf sim
+    else
+        printf nao
+
+funcao recursiva
+
+
+
+
+
+
+funcao recursiva
+chamada quando m[i][j] bate com a primeira letra da palavra
+devolve 1 se achar a palavra, 0 se não achar
+
+caso base (faz a recursão parar)
+quando o idx da letra procurada atingir o final da string
+
+caso geral
+se as coordenadas forem válidas && a letra procurada é a do idx && letra não foi usada
+    procurar próxima letra nas quatro direções

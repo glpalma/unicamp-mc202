@@ -1,0 +1,27 @@
+// a
+Grafo direcionado cujas arestas possuem pesos.
+A aresta é direcionada do vértice da linha
+para o da coluna.
+
+// b
+arquivo de nome 3b.pdf
+
+// c
+3 componentes conexas e um ciclo
+
+// d
+arquivo de nome 3d.pdf
+
+// e
+11 vértices e 10 arestas
+
+// f
+O grafo dado no enunciado pode ser desempenho similar
+ao implementado com matriz de adjacências, uma vez que 
+a checagem de aresta se baseia no acesso de uma posição 
+da matriz. Por sua vez, uma lista  de adjacências não teria
+tal eficiência em um caso geral, mas, como há poucas arestas
+em relação ao número total de vértices, ela teria desempenho 
+similar, uma vez que a lista de adjacências não seria grande o
+suficiente para degenerar a estrutura em formato de lista
+ligada.

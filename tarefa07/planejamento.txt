@@ -1,0 +1,81 @@
+planejamento da entrada {
+    enquanto não for EOF
+
+    receber número de cartões e número de autoridades
+    verificar se deu certo
+
+    de 0 até cartoes - 1
+        recebe o número do cartão
+        recebe a mensagem(max de 5 caracteres)
+}
+    para cada autoridade
+        achar_triade()
+    
+quando der EOF tudo, imprime a raiz da árvore de mensagens
+excluir árvore das mensagens
+
+uma ABB dos tokens
+    organizados de acordo com o número da mensagem
+
+quando o mensageiro passa por uma autoridade
+a tríade de mensagens escolhidas vira uma mensagem de número da autoridade
+
+PLANEJAMENTO DA MAIN
+
+enquanto a entrada não tiver acabado
+    arvore = criar_arvore
+    autoridades = ler_tokens(arvore)
+    if autoridades == 0 {
+        destruir arvore
+        break;
+    }
+    visitar_autoridades(autoridades)
+    destruir arvore
+
+preciso pensar na estrutura de dados que vou usar
+
+arvore de tokens: uma ABB (de acordo com os números)
+
+cada nó possui
+    numero
+    string de mensagem
+    pont esq
+    pont dir
+
+possiveis operações sobre a árvore
+
+criar_arvore
+
+inserir token
+
+remover token
+
+destruir_arvore
+
+ler_tokens
+
+visitar_autoridade
+
+entregar_triade_autoridade
+//
+percorrer cada nó uma vez
+
+preciso achar 3 nós que deem o rolê da autoridade
+
+quando o trio é manipulado, não precisa mais acessar a árvore
+
+para achar o primeiro nó
+
+se a árvore não for nula
+raiz-esq = percorre a subárvore esq
+    se o valor da raiz for menor do que autoridade 
+        raiz -< tenta buscar outros dois nós cuja soma dos num é autoridade - raiz
+        raiz-dir -< acessa a subárvore direita
+
+    ret raiz
+
+BUSCA DE UM PAR DE NÓS
+    percorrer a árvore
+    para cada nó, procuro outro nó com número autoridade - nó1 - nó2
+
+    
